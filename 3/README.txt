@@ -1,1 +1,0 @@
-QA Specialist — Online Portfolio (fixed)\n\nOpen data.js and edit your information. Open index.html in a browser to view.
