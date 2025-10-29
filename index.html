@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QA Specialist — Portfolio</title>
+  <meta name="description" content="Editable QA Specialist portfolio." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="card header">
+      <img src="assets/avatar-placeholder.svg" alt="Your Photo" id="photo" />
+      <div class="head-info">
+        <div class="name" id="name">Your Name</div>
+        <div class="role" id="title">Quality Assurance (QA) Specialist</div>
+        <p class="summary" id="summary">Short professional summary.</p>
+        <div class="links">
+          <a class="link" id="email" href="#"><span id="emailText">you@example.com</span></a>
+          <a class="link" id="phone" href="#"><span id="phoneText">+63 9XX XXX XXXX</span></a>
+          <a class="link" id="linkedin" href="#" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="link" id="github" href="#" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="card">
+      <h3 class="section-title">Skills</h3>
+      <div id="skills" class="chips"></div>
+    </section>
+
+    <section class="grid grid-2">
+      <div class="card">
+        <h3 class="section-title">Experience</h3>
+        <div id="experience"></div>
+      </div>
+
+      <div class="card">
+        <h3 class="section-title">Tools & Certifications</h3>
+        <div id="tools" class="chips"></div>
+        <h4 style="margin-top:12px;">Certifications</h4>
+        <ul id="certs"></ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3 class="section-title">Projects</h3>
+      <div id="projects"></div>
+    </section>
+
+    <section class="grid grid-2">
+      <div class="card">
+        <h3 class="section-title">Test Cases</h3>
+        <div id="test-cases"></div>
+      </div>
+      <div class="card">
+        <h3 class="section-title">Bug Reports</h3>
+        <div id="bug-reports"></div>
+      </div>
+    </section>
+
+    <div class="card flat" style="text-align:center;">
+      <button id="printBtn" class="btn">Print / Save as PDF</button>
+      <p style="margin-top:8px;color:var(--muted);font-size:13px;">© <span id="nameCopy">Your Name</span></p>
+    </div>
+  </main>
+
+  <!-- Data and app scripts placed after DOM to avoid timing issues -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
