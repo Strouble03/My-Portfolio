@@ -102,16 +102,23 @@ window.PORTFOLIO = {
   projects: [
     {
       name: "Payment Process(Manual)",
-      period: "2022",
-      link: "",
-      tech: ["Browser Stack","DevTools(Browser)"],
+      period: "2021",
+      link: "Globe Online Shop",
+      tech: ["Browser Stack, DevTools(Browser), Jira, Google sheet, Postman"],
       summary: "Credit Card Payment Update"
     },
     {
-      name: "Checkout Automation",
-      period: "2024",
-      link: "",
-      tech: ["Cypress","GitHub Actions"],
+      name: "System Update / Platform Update",
+      period: "2022",
+      link: "Globe Online Shop",
+      tech: ["Browser Stack, DevTools(Browser), Jira, Google sheet, Postman"],
+      summary: "System Update / Platform Update."
+    },
+    {
+      name: "Product Update",
+      period: "2020-2022",
+      link: "Globe Online Shop",
+      tech: ["Browser Stack, DevTools(Browser), Jira, Google sheet, CMS"],
       summary: "Automated end-to-end checkout flows and integrated smoke tests into CI."
     }
   ],
