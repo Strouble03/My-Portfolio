@@ -1,7 +1,7 @@
 // Edit this file to update your portfolio content
 window.PORTFOLIO = {
   basics: {
-    name: "Albertson Lasiste Domingossss",
+    name: "Albertson Lasiste Domingoss",
     title: "Quality Assurance (QA) Specialist",
     location: "Echague, Isabela, Philippines",
     email: "strebladomingo@gmail.com",
@@ -101,7 +101,7 @@ window.PORTFOLIO = {
   ],
   projects: [
     {
-      name: "Payment Process(Manual)",
+      name: "Payments Process(Manual)",
       period: "2021",
       link: "Globe Online Shop",
       tech: ["Browser Stack, DevTools(Browser), Jira, Google sheet, Postman"],
