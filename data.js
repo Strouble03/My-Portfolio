@@ -1,7 +1,7 @@
 // Edit this file to update your portfolio content
 window.PORTFOLIO = {
   basics: {
-    name: "Albertson Lasiste Domingoss",
+    name: "Albertson Lasiste Domingo",
     title: "Quality Assurance (QA) Specialist",
     location: "Echague, Isabela, Philippines",
     email: "strebladomingo@gmail.com",
