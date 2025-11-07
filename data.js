@@ -108,6 +108,13 @@ window.PORTFOLIO = {
       summary: "Credit Card Payment Update"
     },
     {
+      name: "Payments Process(Manual)",
+      period: "2021",
+      link: "Globe Online Shop",
+      tech: ["Browser Stack, DevTools(Browser), Jira, Google sheet, Postman"],
+      summary: "Credit Card Payment Update"
+    },
+    {
       name: "System Update / Platform Update",
       period: "2022",
       link: "Globe Online Shop",
