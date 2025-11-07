@@ -12,7 +12,7 @@ window.PORTFOLIO = {
   },
   skills: ["Manual Testing","Test Case Design","Exploratory Testing","Regression Testing","API Testing (Postman)","Automation (Playwright, Selenium)","Python","SQL"],
   tools: ["Jira","Clickup","Postman","Python","Playwright","Selenium","Python","Git","BrowserStack"],
-  certifications: ["ISTQB Foundation Level (2022)"],
+  certifications: [""],
   experience: [
     {
       role: "QA Specialist",
@@ -100,13 +100,6 @@ window.PORTFOLIO = {
     }
   ],
   projects: [
-    {
-      name: "Payments Process(Manual)",
-      period: "2021",
-      link: "Globe Online Shop",
-      tech: ["Browser Stack, DevTools(Browser), Jira, Google sheet, Postman"],
-      summary: "Credit Card Payment Update"
-    },
     {
       name: "Payments Process(Manual)",
       period: "2021",
